@@ -8,6 +8,7 @@
 #f = open('skazka.txt','a')
 #f.write('s')
 skaska = open('01_jorney_begin.txt', 'r', encoding='utf-8')
+# по очередно открывает, меняет запись
 skaska = open('02_unexpected_meet.txt', 'r', encoding='utf-8')
 skaska = open('03_murder.txt', 'r', encoding='utf-8')
 skaska = open('04_second_victim.txt', 'r', encoding='utf-8')
