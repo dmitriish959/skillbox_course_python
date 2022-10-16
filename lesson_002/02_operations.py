@@ -13,3 +13,4 @@ print(result)
 
 result = 1 * ((2 + 3) * 4 + 5)
 print(result)
+# В задании уже был прописан пример
