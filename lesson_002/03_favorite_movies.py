@@ -17,4 +17,8 @@ print(my_favorite_movies[: 10])
 print(my_favorite_movies[-15:])
 print(my_favorite_movies[12: 25])
 print(my_favorite_movies[-22: -17])
-# TODO здесь ваш код
+
+#Терминатор
+#Назад в будущее
+#Пятый элемент
+#Чужие
