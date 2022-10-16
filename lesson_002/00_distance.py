@@ -31,10 +31,10 @@ distances['Paris'] = {}
 distances['Paris']['London'] = london_paris
 distances['Paris']['Moscow'] = moscow_london
 
-pprint(distances)
-
-
 print(distances)
+
+
+
 
 
 
