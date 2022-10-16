@@ -3,15 +3,17 @@
 
 # Есть словарь координат городов
 
+# Составим словарь словарей расстояний между ними
+# расстояние на координатной сетке - корень из (x1 - x2) ** 2 + (y1 - y2) ** 2
+
+from pprint import pprint
 sites = {
     'Moscow': (550, 370),
     'London': (510, 510),
     'Paris': (480, 480),
 }
-
 # Составим словарь словарей расстояний между ними
 # расстояние на координатной сетке - корень из (x1 - x2) ** 2 + (y1 - y2) ** 2
-
 distances = dict()
 moscow = sites['Moscow']
 london = sites['London']
@@ -28,9 +30,9 @@ distances['London']['Moscow'] = moscow_london
 distances['Paris'] = {}
 distances['Paris']['London'] = london_paris
 distances['Paris']['Moscow'] = moscow_london
+
 print(distances)
 
-# TODO здесь заполнение словаря
 
 
 
