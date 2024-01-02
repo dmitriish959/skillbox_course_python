@@ -39,3 +39,6 @@ violator_songs_dict = {
 #   А другие три песни звучат ХХХ минут
 
 # TODO здесь ваш код
+time_sum = (violator_songs_dict[1][1] + violator_songs_dict[6][1] + violator_songs_dict[7][1])
+print('А другие три песни звучат', time_sum, 'минут')
+
